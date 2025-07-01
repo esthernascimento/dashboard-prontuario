@@ -32,4 +32,7 @@ Este projeto ainda está em fase de desenvolvimento. Por enquanto, as funcionali
 
 ---
 
+![Imagem de capa do sistema](./img/login-print.PNG)
+![Imagem de capa do sistema](./img/cadastro-print.PNG)
+
 Feito com 💙 pela Wisys!
