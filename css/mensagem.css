@@ -1,0 +1,107 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container para o formulário e mensagens */
+.container {
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Mensagem de sucesso */
+.mensagem {
+  border: 2px solid #0618b9;
+  box-shadow: 0 0 5px #0618b9, 0 0 10px #0618b9, 0 0 20px #0618b9;
+  display: flex;
+  flex-direction: row;
+  color: #000535;
+  background-color: #6874e0;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  max-width: 500px;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Mensagem de erro */
+.mensagem.erro {
+  color: #FF0000;
+  background-color: #6874e0;
+  border: 1px solid #6874e0;
+}
+
+/* Inputs estilos */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0 18px 0;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+/* Foco no input */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #0618b9;
+  outline: none;
+}
+
+/* Botão estilizado */
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #0618b9;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover no botão */
+button:hover {
+  background-color: #000a68;
+}
+
+/* Link para cadastro ou outras ações */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0618b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Animação suave para mensagens */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
