@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($user && password_verify($senha, $user['senhaUsuario'])) {
         $_SESSION['usuario'] = $user['emailUsuario'];
         $_SESSION['idUsuario'] = $user['idUsuario'];
-        header("Location: dashboard.html"); // redireciona direto!
+        header("Location: dashboard.php"); // redireciona direto!
         exit();
     } else {
         header("Location: index.html?erro=1"); // pode mostrar erro com JS
