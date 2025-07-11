@@ -12,10 +12,10 @@
 <div class="sidebar">
   <img src="./img/logo-branco.png" alt="Logo Prontuário+" class="logo">
   <nav>
-    <a href="#"><i class="bi bi-house-door-fill"></i></a>
-    <a href="#"><i class="bi bi-people-fill"></i></a>
-    <a href="#"><i class="bi bi-question-circle-fill"></i></a>
-    <a href="#"><i class="bi bi-shield-lock-fill"></i></a>
+    <a href="dashboard.php"><i class="bi bi-house-door-fill"></i></a>
+    <a href="pacientes.php"><i class="bi bi-people-fill"></i></a>
+    <a href="ajuda.php"><i class="bi bi-question-circle-fill"></i></a>
+    <a href="seguranca.php"><i class="bi bi-shield-lock-fill"></i></a>
     <a href="logout.php"><i class="bi bi-power"></i></a>
   </nav>
 </div>
@@ -69,7 +69,7 @@
 </div>
 
 <script>
-const textColor = '#555'; // Cor padrão para os textos dos gráficos
+const textColor = '#555'; 
 
 // Gráfico de barras
 new Chart(document.getElementById('graficoBarras'), {
@@ -79,7 +79,7 @@ new Chart(document.getElementById('graficoBarras'), {
         datasets: [{
             label: 'Usuários',
             data: [260, 230, 110],
-            backgroundColor: '#0023A0', // Cor da barra
+            backgroundColor: '#0023A0', 
             borderRadius: 5
         }]
     },
@@ -92,10 +92,10 @@ new Chart(document.getElementById('graficoBarras'), {
         scales: {
             y: {
                 beginAtZero: true,
-                ticks: { color: textColor } // MUDANÇA AQUI
+                ticks: { color: textColor } 
             },
             x: {
-                ticks: { color: textColor } // MUDANÇA AQUI
+                ticks: { color: textColor } 
             }
         }
     }
@@ -115,12 +115,12 @@ new Chart(document.getElementById('graficoLinha'), {
         responsive: true,
         maintainAspectRatio: false,
         scales: {
-            y: { ticks: { color: textColor } }, // MUDANÇA AQUI
-            x: { ticks: { color: textColor } }  // MUDANÇA AQUI
+            y: { ticks: { color: textColor } }, 
+            x: { ticks: { color: textColor } }  
         },
         plugins: {
             legend: {
-                labels: { color: textColor } // MUDANÇA AQUI
+                labels: { color: textColor } 
             }
         }
     }
