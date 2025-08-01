@@ -9,24 +9,24 @@
   
 </head>
 <body>
-<div class="sidebar">
-  <img src="./img/logo-branco.png" alt="Logo Prontuário+" class="logo">
-  <nav>
-    <a href="dashboard.php"><i class="bi bi-house-door-fill"></i></a>
-    <a href="pacientes.php"><i class="bi bi-people-fill"></i></a>
-    <a href="ajuda.php"><i class="bi bi-question-circle-fill"></i></a>
-    <a href="seguranca.php"><i class="bi bi-shield-lock-fill"></i></a>
-    <a href="logout.php"><i class="bi bi-power"></i></a>
-  </nav>
-</div>
-
-<div class="main-dashboard-wrapper">
-  <header class="header">
-    <div class="user-info">
-      <img src="./img/julia.png" alt="Foto da Dra. Júlia">
-      <span>Dra. Júlia Marcelli</span>
+    <div class="sidebar">
+    <img src="./img/logo-branco.png" alt="Logo Prontuário+" class="logo">
+    <nav>
+        <a href="dashboard.php"><i class="bi bi-house-door-fill"></i></a>
+        <a href="pacientes.php"><i class="bi bi-people-fill"></i></a>
+        <a href="ajuda.php"><i class="bi bi-question-circle-fill"></i></a>
+        <a href="seguranca.php"><i class="bi bi-shield-lock-fill"></i></a>
+        <a href="logout.php"><i class="bi bi-power"></i></a>
+    </nav>
     </div>
-  </header>
+
+    <div class="main-dashboard-wrapper">
+    <header class="header">
+        <div class="user-info">
+        <img src="./img/julia.png" alt="Foto da Dra. Júlia">
+        <span>Dra. Júlia Marcelli</span>
+        </div>
+    </header>
 
 
       <main class="main-dashboard">

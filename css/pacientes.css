@@ -238,30 +238,30 @@
   }
   
   .btn-view {
-    background-color: #17a2b8;
+    background-color: #0023A0;
     color: white;
   }
   
   .btn-view:hover {
-    background-color: #138496;
+    background-color: #000b35;
   }
   
   .btn-edit {
-    background-color: #ffc107;
-    color: #212529;
+    background-color: #333;
+    color: #fff;
   }
   
   .btn-edit:hover {
-    background-color: #e0a800;
+    background-color: #5d5b55;
   }
   
   .btn-delete {
-    background-color: #dc3545;
+    background-color: #ff0019;
     color: white;
   }
   
   .btn-delete:hover {
-    background-color: #c82333;
+    background-color: #79000c;
   }
   
   /* Visualização em tabela */
